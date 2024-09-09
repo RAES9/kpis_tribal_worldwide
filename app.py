@@ -421,9 +421,4 @@ else:
 
     login_url = f"https://discord.com/api/oauth2/authorize?client_id={client_id}&redirect_uri={redirect_uri}&response_type=code&scope=identify"
 
-    st.markdown(f"""
-            <meta http-equiv="refresh" content="0; url={login_url}">
-            <script>
-                window.close();
-            </script>
-        """, unsafe_allow_html=True)
+    st.markdown(f"[Haz clic aquí para iniciar sesión con Discord]({login_url})")
