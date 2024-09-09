@@ -2,7 +2,7 @@ import firebase_admin
 from firebase_admin import credentials, db
 
 if not firebase_admin._apps:
-    cred = credentials.Certificate("firebase/ios-assistant-5f37f-firebase-adminsdk-hd4vl-1497ed076f.json")
+    cred = credentials.Certificate("firebase/ios-assistant-5f37f-firebase-adminsdk-hd4vl-c54e83d8d4.json")
     firebase_admin.initialize_app(cred, {
         'databaseURL': 'https://ios-assistant-5f37f-default-rtdb.firebaseio.com'
     })
