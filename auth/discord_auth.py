@@ -2,7 +2,7 @@ import requests
 
 client_id = '1233485159571918898'
 client_secret = 'CeOYp_SWOMvXSHDOfHozhtrqI0g1Eq8a'
-redirect_uri = "http://localhost:8501"
+redirect_uri = "https://kpis-tribal-ios.streamlit.app"
 
 
 def get_access_token(code):
