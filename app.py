@@ -1,18 +1,10 @@
 import streamlit as st
 from auth.discord_auth import get_user_info, get_access_token, client_id, redirect_uri
 from auth.firebase_auth import verify_user
-import firebase_admin
-from firebase_admin import credentials, db
+from firebase_admin import db
 import pandas as pd
 from io import BytesIO
 import openpyxl
-
-# Inicializar Firebase
-if not firebase_admin._apps:
-    cred = credentials.Certificate("ruta/a/tu/credencial/firebase.json")
-    firebase_admin.initialize_app(cred, {
-        'databaseURL': 'https://tu-proyecto.firebaseio.com'
-    })
 
 st.set_page_config(page_title="KPIs", layout="wide")
 
