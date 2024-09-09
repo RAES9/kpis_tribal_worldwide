@@ -1,7 +1,7 @@
 import requests
 
 client_id = '1233485159571918898'
-client_secret = 'CeOYp_SWOMvXSHDOfHozhtrqI0g1Eq8a'
+client_secret = '-_swjz6-M6gOVJUq1upRJBpEiS-TnUNk'
 redirect_uri = "https://kpistribalworldwide.streamlit.app"
 
 
